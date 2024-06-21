@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+:root{
+    --primary-color: #F6D0CD;
+    --secondary-color: #93B0B6;
+    --tertiary-color: #F27932;
+    --quaternary-color: #6DAFA7;
+    --quinary-color: #FCD04E;
+    --senary-color: #FCB5FF;
+    --septenary-color: #DAB02A;
+    --octonary-color: #000000;
+    --nonary-color: #000000;
+    --decenary-color: #000000;
+    --undenary-color: #F9AAAF;
+}
+
+.section-size{  
+    height: 100vh;
+    border: 30px solid #194850;
+}
+
+.section-color1{
+    color: #495894;
+    gap: 100px;
+    background-color: var(--primary-color);}
+
+.section-color2{
+    color: #22272E;
+    gap: 100px;
+    background-color: var(--secondary-color);
+}
+
+.section-color3{  
+    gap: 100px;
+    color: #233277;
+    background-color: var(--undenary-color);
+}
+
+.section-color4{
+    gap: 100px;
+    color: #233276; 
+    background-color: var(--septenary-color);
+}
+
+.section-color5{
+    gap: 100px;
+    color: #23276C;
+    background-color:var(--senary-color);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.banner{
+    margin-top: 50px;
+    width: 85vh;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.banner:hover{
+    transform: scale(1.1);
+    filter: brightness(1.050);
+    transition:calc(0.3deg);
+}
+
+
+
+.j-center{
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.title-size{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.button{
+    width: 190px;
+    height: 37px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 750;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-color1{
+    background-color: var(--tertiary-color)
+}
+
+.btn-color2{
+    background-color: var(--quaternary-color)
+}
+
+.btn-color3{
+    background-color: var(--quinary-color);
+}
+
+.btn-color4{
+    background-color: #23276C;
+}
+
+.btn-color5{
+    background-color: var(--octonary-color);
+}
+
+
+
+.button:hover{
+    background-color: #194850;
+    color: white;
+}
+
+
+.m-section{
+    margin: 35px;
+}
+
+.p-size{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mbottom-30px{
+    margin-bottom: 30px;
+}
+
+.cabecalho{
+    padding: 5em;
+    border: 30px solid #194850;
+    background-color: #F6D0CD;
+}
+
+span{
+   color: red;
+}
